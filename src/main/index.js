@@ -33,6 +33,9 @@ function createWindow() {
   } else {
     mainWindow.loadFile(join(__dirname, '../renderer/index.html'))
   }
+  mainWindow.webContents.on('dom-ready', () => {
+    mainWindow.webContents.send('command-line-args', process.argv);
+  });
 }
 
 // This method will be called when Electron has finished
@@ -50,7 +53,7 @@ app.whenReady().then(() => {
   })
 
   // IPC test
-  ipcMain.on('ping', () => console.log('pong'))
+  ipcMain.on('ping', () => console.log(process.argv[1]))
 
   createWindow()
 
