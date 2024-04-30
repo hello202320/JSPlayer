@@ -8,7 +8,7 @@ An Electron application with React
 
 ## Project Setup
 
-# Prerequisites
+### Prerequisites
 
 Before you begin, ensure you have met the following rquirements: 
 
@@ -16,6 +16,13 @@ Before you begin, ensure you have met the following rquirements:
 
 [Download Node.js](https://nodejs.org/en/download)
 Follow the prompts in the installers to set up Node.js on your machine.
+
+#### Download or Clone the Repository
+You can download the project as a ZIP file by clicking on the green "Code" button above, or clone the repository using Git:
+
+```bash
+$ git clone https://github.com/hello202320/JSPlayer.git
+```
 
 ### Install
 
