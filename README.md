@@ -23,15 +23,16 @@ You can download the project as a ZIP file by clicking on the green "Code" butto
 ```bash
 $ git clone https://github.com/hello202320/JSPlayer.git
 ```
-and 
-```bash
-$ cd JSPlayer
-```
+
 If you do not have git and wish to use git, you can download and install it from here.
 [Download git](https://git-scm.com/downloads)
 Follow the prompts in the installers to set up git on your machine.
 
 ### Install
+
+```bash
+$ cd JSPlayer
+```
 
 ```bash
 $ npm install
